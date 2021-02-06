@@ -46,7 +46,6 @@ android:gravity="center_vertical" has effects on the items inside of Layout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="22"
-        android:lines="1"
         android:padding="10dp"
         android:text="Dec 2018"
         android:textColor="@color/black"

@@ -23,6 +23,10 @@ public class NotesRecyclerAdapter extends RecyclerView.Adapter<NotesRecyclerAdap
 
     private ArrayList<Note> mNotes = new ArrayList<>();
 
+    public NotesRecyclerAdapter(ArrayList<Note> notes) {
+        mNotes = notes;
+    }
+
     /**
      * Responsible for creating or instantiating ViewHolder object
      * @param parent
