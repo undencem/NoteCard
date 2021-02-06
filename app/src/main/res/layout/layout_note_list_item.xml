@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+layout_gravity only effects the layout itself
+android:gravity="center_vertical" has effects on the items inside of Layout
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -13,6 +19,9 @@
         android:background="@color/cardview_light_background"
         />
 
+    <!--
+    android:lines="1" limits the line at 1
+    -->
 
     <TextView
         android:id="@+id/note_title"
@@ -25,6 +34,7 @@
         android:textColor="@color/black"
         android:textSize="23sp" />
 
+    <!-- View is used to put spaces between items -->
     <View
         android:layout_width="0dp"
         android:layout_height="match_parent"
