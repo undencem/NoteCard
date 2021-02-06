@@ -41,4 +41,9 @@ dependencies {
      * implementation added for RecyclerView
      */
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    /**
+     * Design support for toolbars
+     */
+    implementation 'com.google.android.material:material:1.0.0'
 }
